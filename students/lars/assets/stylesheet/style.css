@@ -1,0 +1,49 @@
+/* Google Fonts */
+
+* {
+/*font-family: 'Rammetto One', cursive;*/
+font-family: 'Mukta Mahee', sans-serif;
+}
+
+body {
+    border: 15px #0000FF solid;
+}
+
+img {
+    width: 100%;
+}
+
+.spacer {
+    margin: 200px 0 200px 0;
+}
+
+.lens-top {
+    width: 900px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+h1 {
+    font-family: 'Rammetto One', cursive;
+    color: #0000FF;
+    font-size: 9rem;
+    line-height: 120%;
+    margin-top: 100px;
+    letter-spacing: -3px;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #0000FF;
+    margin: 120px 0px 40px 0px;
+}
+
+h3 {
+    color: #000000;;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 125%;
+    letter-spacing: 1px;
+}
