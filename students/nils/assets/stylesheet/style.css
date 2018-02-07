@@ -1,0 +1,75 @@
+#skrollr-body {
+    overflow-x: hidden;
+}
+
+.fullscreen {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  font-size: 14vw;
+  padding-top: 35vh;
+font-weight: 900;
+  color: white;
+}
+
+h1 {
+    font-size: 2rem;
+    font-style: 900;
+    margin: 2em 0em 1em 0em;
+    line-height: 2.5rem;
+    }
+
+h2 {
+    font-size: 4rem;
+    font-style: 900;
+    margin: 2em 0em 1em 0em;
+    line-height: 3rem;
+    color: white;
+    }
+
+
+.zurich {
+  background-image: url(../img/Zurich_big_city_2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.crowded {
+  background-image: url(../img/street_blue.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 80vh;
+}
+
+.slider {
+    position: absolute;
+    bottom: 0;
+}
+
+
+.black {
+  background-color: black;
+}
+
+.streifen {
+  height: 100vh;
+  width: 100vh;
+}
+
+.fullscreen .streifen {
+ display: inline-block;
+}
+
+body {
+    font-family: 'Archivo Black', sans-serif;
+    }
