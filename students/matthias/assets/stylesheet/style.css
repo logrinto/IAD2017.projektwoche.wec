@@ -1,0 +1,57 @@
+.fullscreen {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.fullscreenbody {
+    width: 100vw;
+    height: 100vh;
+    text-align: left;
+}
+
+body {
+    font-family: Mukta Mahee, sans-serif;
+    background-color: #e8e8e8;
+}
+
+.text {
+    text-align: center;
+    font-size: 16vw;
+    padding-top: 35vh;
+    color: white;
+}
+
+.image {
+    width: 100%;
+    position: absolute;
+}
+
+.blue {
+    background-color: #97CEEC;
+}
+
+.fullscreen {
+    display: inline-block;
+}
+
+h2 {
+    text-align: left;
+    font-size: 14rem;
+    margin-top: 20px;
+}
+
+h3 {
+    text-align: left;
+}
+
+li {
+    font-size: 1.7rem ;
+
+}
+
+/*.complete {*/
+/*width: 20%;*/
+/*height: 20%;*/
+
+/*}*/
