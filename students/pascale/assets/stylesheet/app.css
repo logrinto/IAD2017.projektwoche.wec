@@ -33,3 +33,24 @@ h3 {
 .ausgangslage-text2 {
   padding: 8rem 0 0 0;
 }
+
+.funktionskleidung {
+  padding: 5rem 0 1.5rem 0 ;
+  margin: 0 auto;
+}
+
+.sportkleidung {
+  padding: 0 0 0 1rem;
+}
+
+.wohlfuehlkleidung {
+  padding: 0 0 0 5rem;
+}
+
+.alltagskleidung {
+  padding: 0 0 0 9rem;
+}
+
+.muster-text {
+  padding: 0 0 0 4rem;
+}
