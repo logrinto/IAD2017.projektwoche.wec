@@ -17,10 +17,13 @@
         <script src="./assets/js/vendor/foundation.js"></script>
         <script src="./assets/js/vendor/what-input.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+        <script src="./assets/js/switchery.min.js"></script>
+        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
         <script src="./assets/js/script.js"></script>
         <!-- Referenz zur lokalen Stilvorlage (hier Änderungen eintragen) -->
         <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:300,400,800|Rammetto+One" rel="stylesheet">
         <link rel="stylesheet" href="./assets/stylesheet/foundation.css">
+        <link rel="stylesheet" href="./assets/stylesheet/switchery.min.css">
         <link rel="stylesheet" href="./assets/stylesheet/style.css">
         <link rel="stylesheet" href="./assets/stylesheet/mediaqueries.css">
     </head>
@@ -39,10 +42,12 @@
                     <h3>Revolutionäre Fortschritte im autonomen Fahren ermöglichen dem Menschen unglaubliche Geschwindigkeiten mit Fahrzeugen zu erreichen. Die Entwicklung birgt jedoch auch eine tödliche Schattenseite in sich. Durch die revolutionäre Erfindung von Slow Motion Vision wird dieses Risiko gänzlich verhindert.</h3>
                 </div>
             </div>
+            <div class="small-offset-1 toggle-button">
+                <p class="smv-btn-titel">Slow Motion Vision:</p>
+                <input type="checkbox" class="js-switch" id="btnClick"/></div>
             </section>
             <div class="grid-x">
                 <div class="cell small-12" id="1">
-                    <button id="btnClick">Click me!</button>
                     <img class="gif" src="./assets/img/car-with-crash.png">
                 </div>
                 <div class="cell small-12" id="2" style="display:none;">
@@ -58,13 +63,20 @@
             <div class="spacer-small"></div>
             <div class="grid-x">
                 <div class="cell small-7">
-                    <img style="transform: translateY(80px);" data-40p="margin-left: -100vw;" data-150p="margin-left: -6vw" src="./assets/img/car-color-cut.png">
+                    <img style="transform: translate(-6vw, 80px);" src="./assets/img/car-color-cut.png">
                 </div>
                 <div class="cell small-4">
                     <h4 class="line-blue">Tödliche Geschwindigkeit</h4>
                     <p>Werden die immer schnelleren Geschwindigkeiten mit den Personenunfällen im Strassenverkehr pro Jahr verglichen, erkennt man eine hohe Übereinstimmung im Anstieg der beiden Jahreskurven.</p>
-                    <canvas id="Chart-kmh" class="space-btw-chart"></canvas>
-                    <canvas id="Chart-unfall"></canvas>
+                    <div class="rvl">
+                        <p class="chart-titel">Geschwindigkeitsanstieg im Jahresvergleich</p>
+                        <canvas id="Chart-kmh"></canvas>
+                    </div>
+                    <br>
+                    <div class="rvl-2">
+                        <p class="chart-titel">Tödliche Personenunfälle im Jahresvergleich</p>
+                        <canvas id="Chart-unfall"></canvas>
+                    </div>
                 </div>
             </div>
             <div class="spacer"></div>
@@ -76,22 +88,25 @@
             <div class="spacer-small"></div>
             <div class="grid-x">
                 <div class="cell small-offset-1 small-4">
+                <h4 class="line-blue">Hier kommt ein Titel</h4>
                 <p>Hier kommt eine Beschreibung was die Linse geschaffen ist und was der Mensch für Vorteile hat mit der Linse. Plus einen Hinweis auf die beiden Videos.</p>
                 </div>
                 <div class="cell small-7">
-                    <img data-220p="margin-left: 100vw;" data-300p="margin-left: 7vw;" src="./assets/img/lens.png">
+                    <img style="transform: translate(7vw, 0px);" src="./assets/img/lens.png">
                 </div>
             </div>            
             <div class="spacer"></div>
             <div class="grid-x">
                 <div class="cell small-7">
-                    <img style="transform: translateY(80px);" data-400p="margin-left: -100vw;" data-480p="margin-left: -6vw" src="./assets/img/eye-color.png">
+                    <img  style="transform: translate(-6vw, 80px);" src="./assets/img/eye-color.png">
                 </div>
                 <div class="cell small-4">
                     <h4 class="line-blue">Slow Motion Vision rettet Leben</h4>
-                    <p>Hier kommen die Vorteile und eine Prognose für das nächste Jahr.</p>
-                    <canvas id="Chart-kmh" class="space-btw-chart"></canvas>
-                    <canvas id="Chart-unfall"></canvas>
+                    <p>jgfjjk</p>
+                    <div class="rvl">
+                        <p class="chart-titel">Prognose: Tödliche Personenunfälle im Jahresvergleich</p>
+                        <canvas id="Chart-prognose"></canvas>
+                    </div>
                 </div>
             </div>
             <div class="spacer"></div>

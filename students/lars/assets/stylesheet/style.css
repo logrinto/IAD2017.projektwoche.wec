@@ -14,6 +14,7 @@ html {
     background-repeat: no-repeat;
     background-position: top right;
     padding: 0px 0px 200px 0px;
+    position: relative;
 }
 
 body {
@@ -103,13 +104,25 @@ h5 {
     letter-spacing: -1px;
 }
 
-.video-header {
-    font-size: 1.5rem;
-    font-weight: 900;
+.toggle-button {
+    position: absolute;
+    bottom: -100px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(0, 0, 255, 0.7);
+    border-radius: 50px;
+}
+
+.smv-btn-titel {
     color: #fff;
-    padding: 20px 0px 20px 0px;
-    text-align: center;
-    margin-bottom: 0;
+    font-size: 1.25rem;
+    font-weight: 900;
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+}
+
+.chart-titel {
+    font-size: 1rem;
+    font-weight: 900;
 }
 
 .big-blue {
