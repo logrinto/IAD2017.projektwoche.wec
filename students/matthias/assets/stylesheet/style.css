@@ -23,8 +23,12 @@ body {
 }
 
 .image {
-    width: 100%;
-    position: absolute;
+    width: 90%;
+}
+
+.detailimage {
+    width: 35%;
+    margin-top: 150px;
 }
 
 .blue {
@@ -39,6 +43,7 @@ h2 {
     text-align: left;
     font-size: 14rem;
     margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 h3 {
@@ -50,8 +55,11 @@ li {
 
 }
 
-/*.complete {*/
-/*width: 20%;*/
-/*height: 20%;*/
+.erklaerung{
+    margin-top: -400px;
+}
 
-/*}*/
+
+.bold{
+    font-weight: 600;
+}
