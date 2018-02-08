@@ -1,0 +1,306 @@
+/* ------- FONTS --------- */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+  font-size: 4.5rem;
+  line-height: 115%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 130%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:lighter;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  line-height: 120%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:lighter;
+}
+
+h4 {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  line-height: 120%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+  text-align: left;
+}
+
+
+.logo {
+  image: url("../img/Logo-Banda-Pink.png");
+  top: 0;
+  right: 0;
+}
+
+/* ------- FONTS --------- */
+
+
+
+
+
+/*-----Einstieg Mood Bilder Slider-------*/
+.einstieg {
+  position: relative;
+  top: 35%;
+  transform: translateY(-35%);
+  color: white;
+  text-align: center;
+/*  text-shadow: 1px 1px 1px black; */
+}
+
+#background1 {
+  background-image:  url("../img/858328322.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+/*----- Einstieg Mood Bilder Slider -------*/
+
+
+
+
+.text1 {
+  margin: 0;
+  color: #A9929B;
+  padding-top: 330px;
+  padding-bottom: 330px;
+  font-weight:lighter;
+  text-align: center;
+  background-color: #F2E0D7;
+}
+
+
+
+/*----- TESTIMONIAL 1 -------*/
+.name {
+  padding-top: 720px;
+  text-align: center;
+}
+
+.testimonial1 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 120px;
+  color: black;
+  font-weight:lighter;
+  text-align: left;
+}
+
+#testimonial1 {
+    background-image:  url("../img/backpacker.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 700px;
+  }
+/*----- TESTIMONIAL 1 -------*/
+
+
+
+.text2 {
+  padding-top: 660px;
+  padding-bottom: 330px;
+  color: black;
+  font-weight:lighter;
+  text-align: center;
+}
+
+
+
+
+/*----- TESTIMONIAL 2 -------*/
+.testimonial2 {
+  padding-top: 30px;
+  padding-bottom: 500px;
+  padding-left: 100px;
+  color: black;
+  font-weight:lighter;
+  text-align: left;
+}
+
+#testimonial2 {
+    background-image:  url("../img/liebespaar.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 700px;
+  }
+/*----- TESTIMONIAL 2 -------*/
+
+
+
+.text3 {
+  padding-top: 660px;
+  padding-bottom: 330px;
+  color: black;
+  font-weight:lighter;
+  text-align: center;
+}
+
+
+
+
+/*----- TESTIMONIAL 3 -------*/
+.testimonial3 {
+  padding-top: 30px;
+  padding-bottom: 500px;
+  padding-left: 100px;
+  color: black;
+  font-weight:lighter;
+  text-align: left;
+}
+
+#testimonial3 {
+    background-image:  url("../img/donald-trump.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 700px;
+  }
+/*----- TESTIMONIAL 3 -------*/
+
+
+
+
+.text4 {
+  padding-top: 660px;
+  padding-bottom: 330px;
+  color: black;
+  font-weight:lighter;
+  text-align: center;
+}
+
+
+
+
+/*----- TESTIMONIAL 4 -------*/
+.testimonial4 {
+  padding-top: 30px;
+  padding-bottom: 300px;
+  padding-left: 100px;
+  color: black;
+  font-weight:lighter;
+  text-align: left;
+}
+
+#testimonial4 {
+    background-image:  url("../img/890157280.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 700px;
+  }
+/*----- TESTIMONIAL 4 -------*/
+
+
+
+.text5 {
+  padding-top: 660px;
+  padding-bottom: 30px;
+  color: black;
+  font-weight:lighter;
+  text-align: center;
+}
+
+
+
+
+/*----- VORTEILE -------*/
+
+#vorteile {
+  padding-right: 30px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-bottom: 250px;
+  color: black;
+  text-align: left;
+  background-color: #F2E0D7;
+  background-size:
+}
+
+
+.weltkarte {
+  width: 10px;
+  padding-right: 20px;
+}
+
+.globalisierung {
+  width: 20px;
+  padding-left: 150px;
+  padding-right: 30px;
+}
+
+.no-education {
+  padding-left: 130px;
+  padding-right: 30px;
+}
+
+.kommunikation {
+  padding-left: 110px;
+  padding-right: 30px;
+}
+
+/*----- VORTEILE -------*/
+
+
+
+
+
+
+
+/*----- PFLASTER -------*/
+.pflaster {
+  padding-top: 30px;
+  padding-bottom: 00px;
+  padding-left: 100px;
+  color: black;
+  font-weight:lighter;
+  text-align: left;
+}
+
+#pflaster {
+    background-image:  url("../img/bandapflaster-2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+  }
+
+/*----- PFLASTER -------*/
+
+
+
+
+.back {
+  color: white;
+  font-size: 1.3rem;
+  top: 0;
+  right: 0;
+  padding: 30px 30px;
+  cursor: pointer;
+  position: absolute;
+  display: block;
+}
+
+.back:hover {
+  color: grey;
+}
