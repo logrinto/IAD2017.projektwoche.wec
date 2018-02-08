@@ -1,0 +1,35 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400 500 700;
+  position: relative;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin:0;
+  line-height:138%;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 400;
+  margin:0;
+  line-height:138%;
+}
+
+.back {
+  padding:2rem 0 0 2rem;
+}
+
+.ausgangslage-title {
+  padding:15rem 0 5rem 0;
+}
+
+.ausgangslage-bild1 {
+  padding: 0 5rem 0rem 0;
+}
+
+.ausgangslage-text2 {
+  padding: 8rem 0 0 0;
+}
