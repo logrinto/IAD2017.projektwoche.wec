@@ -23,7 +23,6 @@ h2 {
   line-height: 130%;
   font-family: 'Montserrat', sans-serif;
   font-weight:lighter;
-  text-align: center;
 }
 
 h3 {
@@ -43,12 +42,15 @@ h4 {
   text-align: left;
 }
 
+h5 {
+  font-size: 2rem;
+  line-height: 130%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 
-.logo {
-  image: url("../img/Logo-Banda-Pink.png");
-  top: 0;
-  right: 0;
 }
+
+
 
 /* ------- FONTS --------- */
 
@@ -57,17 +59,25 @@ h4 {
 
 
 /*-----Einstieg Mood Bilder Slider-------*/
+
+.logo {
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 200px;
+}
+
+
 .einstieg {
   position: relative;
   top: 35%;
   transform: translateY(-35%);
   color: white;
   text-align: center;
-/*  text-shadow: 1px 1px 1px black; */
+  text-shadow: 1px 1px 1px grey;
 }
 
 #background1 {
-  background-image:  url("../img/858328322.jpg");
+  background-image:  url("../img/gespraech.jpg");
   background-size: cover;
   background-position: center;
   width: 100vw;
@@ -80,45 +90,47 @@ h4 {
 
 .text1 {
   margin: 0;
-  color: #A9929B;
-  padding-top: 330px;
-  padding-bottom: 330px;
+  color: black;
+  padding-top: 400px;
+  padding-bottom: 400px;
   font-weight:lighter;
   text-align: center;
-  background-color: #F2E0D7;
 }
 
 
 
 /*----- TESTIMONIAL 1 -------*/
+
 .name {
-  padding-top: 720px;
-  text-align: center;
+  padding-top: 20px;
+  margin: 0;
 }
 
 .testimonial1 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 120px;
+  padding-left: 20px;
+  padding: 40px;
   color: black;
   font-weight:lighter;
   text-align: left;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: -400px;
 }
 
-#testimonial1 {
-    background-image:  url("../img/backpacker.jpg");
+#bild1 {
     background-size: cover;
     background-position: center;
     width: 100vw;
-    height: 700px;
+    height: 500px;
   }
+
 /*----- TESTIMONIAL 1 -------*/
 
 
 
 .text2 {
-  padding-top: 660px;
-  padding-bottom: 330px;
+  color: #A9929B;
+  padding-top: 700px;
+  padding-bottom: 400px;
   color: black;
   font-weight:lighter;
   text-align: center;
@@ -129,28 +141,30 @@ h4 {
 
 /*----- TESTIMONIAL 2 -------*/
 .testimonial2 {
-  padding-top: 30px;
-  padding-bottom: 500px;
-  padding-left: 100px;
+  padding-left: 20px;
+  padding: 40px;
   color: black;
   font-weight:lighter;
   text-align: left;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: -600px;
+  margin-right: 100px;
 }
 
-#testimonial2 {
-    background-image:  url("../img/liebespaar.jpg");
+#bild2 {
     background-size: cover;
     background-position: center;
-    width: 100vw;
-    height: 700px;
+    width: 100vw !important;
+    height: 700px !important;
   }
 /*----- TESTIMONIAL 2 -------*/
 
 
 
 .text3 {
-  padding-top: 660px;
-  padding-bottom: 330px;
+  color: #A9929B;
+  padding-top: 600px;
+  padding-bottom: 400px;
   color: black;
   font-weight:lighter;
   text-align: center;
@@ -161,20 +175,21 @@ h4 {
 
 /*----- TESTIMONIAL 3 -------*/
 .testimonial3 {
-  padding-top: 30px;
-  padding-bottom: 500px;
-  padding-left: 100px;
+  padding-left: 20px;
+  padding: 40px;
   color: black;
   font-weight:lighter;
   text-align: left;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: -300px;
+  max-height: 380px;
 }
 
-#testimonial3 {
-    background-image:  url("../img/donald-trump.jpg");
+#bild3 {
     background-size: cover;
     background-position: center;
-    width: 100vw;
-    height: 700px;
+    width: 100vw !important;
+    height: 700px !important;
   }
 /*----- TESTIMONIAL 3 -------*/
 
@@ -182,8 +197,8 @@ h4 {
 
 
 .text4 {
-  padding-top: 660px;
-  padding-bottom: 330px;
+  padding-top: 500px;
+  padding-bottom: 400px;
   color: black;
   font-weight:lighter;
   text-align: center;
@@ -194,28 +209,27 @@ h4 {
 
 /*----- TESTIMONIAL 4 -------*/
 .testimonial4 {
-  padding-top: 30px;
-  padding-bottom: 300px;
-  padding-left: 100px;
+  padding-left: 20px;
+  padding: 40px;
   color: black;
   font-weight:lighter;
   text-align: left;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: -500px;
 }
 
-#testimonial4 {
-    background-image:  url("../img/890157280.jpg");
+#bild4 {
     background-size: cover;
     background-position: center;
     width: 100vw;
-    height: 700px;
   }
 /*----- TESTIMONIAL 4 -------*/
 
 
 
 .text5 {
-  padding-top: 660px;
-  padding-bottom: 30px;
+  padding-top: 400px;
+  padding-bottom: 100px;
   color: black;
   font-weight:lighter;
   text-align: center;
@@ -230,31 +244,34 @@ h4 {
   padding-right: 30px;
   padding-left: 20px;
   padding-top: 0px;
-  padding-bottom: 250px;
+  padding-bottom: 400px;
   color: black;
   text-align: left;
   background-color: #F2E0D7;
-  background-size:
+
 }
 
 
-.weltkarte {
+.map {
   width: 10px;
+  padding-top: 10px;
   padding-right: 20px;
 }
 
 .globalisierung {
   width: 20px;
-  padding-left: 150px;
-  padding-right: 30px;
+  padding-left: 170px;
+  padding-right: 40px;
 }
 
 .no-education {
-  padding-left: 130px;
+  padding-left: 150px;
   padding-right: 30px;
+  padding-top: 30px;
 }
 
 .kommunikation {
+  padding-top: -70px;
   padding-left: 110px;
   padding-right: 30px;
 }
@@ -268,21 +285,48 @@ h4 {
 
 
 /*----- PFLASTER -------*/
+
+.titel {
+  text-align: left;
+  font-weight:lighter;
+}
+
 .pflaster {
-  padding-top: 30px;
-  padding-bottom: 00px;
-  padding-left: 100px;
+  padding: 60px;
   color: black;
   font-weight:lighter;
   text-align: left;
+  background-color: rgba(255, 255, 255, 0.8);
+  max-width: 45%;
+  margin-left: 50px;
+  margin-top: 60px;
 }
 
 #pflaster {
-    background-image:  url("../img/bandapflaster-2.jpg");
+    background-image:  url("../img/pflaster.jpg");
     background-size: cover;
     background-position: center;
     width: 100vw;
     height: 100vh;
+  }
+
+  .button {
+     background-color: #F2E0D7;
+     color: black;
+     width: 250px;
+     height: 75px;
+     font-size: 1.5rem;
+     border-radius: 12px;
+     text-align: center;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      padding: 17px;
+  }
+
+  .button:hover {
+      background-color: grey; /* Green */
+      color: grey;
+
   }
 
 /*----- PFLASTER -------*/
