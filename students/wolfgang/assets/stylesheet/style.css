@@ -185,3 +185,8 @@ z-index: 3;
 .h1_Margin {
   margin-top: -0.1em;
 }
+
+#skrollr-body {
+
+overflow-x: hidden;
+}
