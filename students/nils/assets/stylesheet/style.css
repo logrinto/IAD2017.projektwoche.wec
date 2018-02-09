@@ -21,6 +21,7 @@ h1 {
     font-style: 900;
     margin: 2em 0em 1em 0em;
     line-height: 2.5rem;
+    text-align: center;
     }
 
 h2 {
@@ -28,6 +29,7 @@ h2 {
     font-style: 900;
     margin: 2em 0em 1em 0em;
     line-height: 5rem;
+    text-align: center;
     color: white;
     }
 
@@ -132,8 +134,14 @@ body {
 
 .space {
     
-    margin-top: 10vh;
-    margin-bottom: 10vh; 
+    padding-top: 10vh;
+   padding-bottom: 10vh; 
+    }
+
+.margin {
+    
+   margin-top: 10vh;
+   margin-bottom: 10vh; 
     }
 
 .image {
