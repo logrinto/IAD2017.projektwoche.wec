@@ -61,11 +61,11 @@ img {
 
 
 .spacer {
-    height: 400px;
+    height: 50vh;
 }
 
 .spacer-small {
-    height: 200px;
+    height: 25vh;
 }
 
 hr.lead-before, hr.lead-after {
