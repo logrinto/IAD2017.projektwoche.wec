@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.video {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fullscreen {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media print, (min-width: 0) and (max-width: 640px) {
+    .fullscreen iframe {
+        width: 374px;
+        height: 200px;
+    }
+
+}
+
+@media print, (min-width: 640px) and (max-width: 1024px) {
+    .fullscreen iframe {
+        width: 900px;
+        height: 700px;
+    }
+
+}
