@@ -1,0 +1,311 @@
+#skrollr-body {
+    overflow-x: hidden;
+}
+
+.fullscreen {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  font-size: 14vw;
+  padding-top: 35vh;
+font-weight: 900;
+  color: white;
+}
+
+h1 {
+    font-size: 2rem;
+    font-style: 900;
+    margin: 2em 0em 1em 0em;
+    line-height: 2.5rem;
+    text-align: center;
+    }
+
+h2 {
+    font-size: 4rem;
+    font-style: 900;
+    margin: 2em 0em 1em 0em;
+    line-height: 5rem;
+    text-align: center;
+    color: white;
+    }
+
+h3 {
+    font-size: 2rem;
+    font-style: 900;
+    margin: 2em 0em 1em 0em;
+    line-height: 2.5rem;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    }
+
+h4 {
+    font-size: 1rem;
+    font-style: 900;
+    margin: 2em 0em 1em 0em;
+    line-height: 1rem;
+    color: #000;
+    text-align: center;
+    margin-top: 10px;
+    }
+
+h5 {
+    font-size: 2rem;
+    margin: 2em 0em 2em 0em;
+    line-height: 1rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    }
+
+h6 {
+    font-size: 13rem;
+    font-style: 900;
+    margin: 2em 0em 1em 0em;
+    line-height: 5rem;
+    text-align: center;
+    color: white;
+    }
+
+
+.zurich {
+  background-image: url(../img/Zurich_big_city_2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.garden {
+  background-image: url(../img/garden.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.sitzen {
+  background-image: url(../img/train.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.platz {
+  background-image: url(../img/street_zurich.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.crowded {
+  background-image: url(../img/crowded_place.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 80vh;
+}
+
+.slider {
+    position: absolute;
+    bottom: 0;
+}
+
+.uebergang {
+    position: absolute;
+    top: 0;
+}
+
+
+.black {
+  background-color: black;
+}
+
+.streifen {
+  height: 100vh;
+  width: 100vh;
+}
+
+.fullscreen .streifen {
+ display: inline-block;
+}
+
+body {
+    font-family: 'Archivo Black', sans-serif;
+    }
+
+.space {
+    
+    padding-top: 10vh;
+   padding-bottom: 10vh; 
+    }
+
+.margin {
+    
+   margin-top: 10vh;
+   margin-bottom: 10vh; 
+    }
+
+.negmargin {
+    
+   margin-top: -4vh;
+    margin-bottom: -4vh; 
+    }
+
+.image {
+    width: 100%;
+    }
+
+/**SCROLL**/
+
+a span {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: -12px;
+  border-left: 5px solid #000;
+  border-bottom: 5px solid #000;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb 2s infinite;
+  animation: sdb 2s infinite;
+  opacity: 0;
+  box-sizing: border-box;
+}
+a span:nth-of-type(1) {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+a span:nth-of-type(2) {
+  bottom: 30px;
+  -webkit-animation-delay: .15s;
+  animation-delay: .15s;
+}
+a span:nth-of-type(3) {
+  bottom: 50px;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+@-webkit-keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+/**Button**/
+
+.button1 {
+font-size: 18px;
+border-radius: 200px;
+margin-top: 10px;
+margin-right: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.button2 {
+font-size: 18px;
+border-radius: 200px;
+margin-top: 10px;
+margin-right: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.button3 {
+font-size: 18px;
+border-radius: 200px;
+margin-top: 10px;
+margin-right: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.button4 {
+font-size: 18px;
+border-radius:0;
+margin-top: 0px;
+margin-right: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.button1:hover {
+  background: #0077b3 !important;  
+}
+
+.button2:hover {
+  background: #0077b3 !important;  
+}
+
+.button3:hover {
+  background: #0077b3 !important;   
+}
+
+.button4:hover {
+  background: #0077b3 !important;   
+}
+
+#button {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#back1 {
+    width: 50px;
+    height: 50px;
+    background-color: #0077b3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: 900;
+}
+
+/**BUTTON ENDE**/
+
+.center{
+    text-align: center;
+    
+    }
+
+.blue {
+  background-color: #0077b3;
+    border: 10px #0077b3 ;
+}
+
+
