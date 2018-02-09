@@ -1,0 +1,113 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400 500 700;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin:0;
+  line-height:112%;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin:0;
+  line-height:128%;
+}
+
+.back {
+  padding:2rem 0 0.5rem 2rem;
+}
+
+.ausgangslage-title {
+  margin:0 auto;
+  padding: 10rem 0 5rem 0;
+}
+
+.ausgangslage-text1 {
+padding: 0.5rem 0 1rem 1rem;
+
+}
+.ausgangslage-bild1 {
+  padding: 0 5rem 0rem 0;
+}
+
+.ausgangslage-text2 {
+  padding: 8rem 0 1rem 1rem;
+}
+
+.funktion-titel {
+  padding: 15rem 0 2rem 0;
+  margin:0 auto;
+}
+
+.funktion-text {
+  padding: 0 0 1rem 3rem;
+}
+
+.funktionskleidung {
+  padding: 5rem 0 1.5rem 0 ;
+  margin: 0 auto;
+}
+
+.sportkleidung {
+  padding: 0 0 0 6.5rem;
+}
+
+.alltagskleidung {
+  padding: 0 0 0 9rem;
+}
+
+.wohlfuehlkleidung {
+  padding: 0 0 0 4.5rem;
+}
+
+.spontan-title {
+  padding: 15rem 0 2rem 0;
+  margin:0 auto;
+}
+
+.muster-text {
+  padding: 0 0 0 10rem;
+}
+
+.muster_1_animation {
+  padding:2rem 0 5rem 0;
+  margin:0 auto;
+}
+
+.szenario1-title {
+  padding: 8rem 0 2rem 1.7rem;
+  margin:0 auto;
+}
+
+.palette_szenario1 {
+  padding:2rem 4rem 5rem 0;
+}
+
+.bild_zug {
+  padding:2rem 0 0 2rem;
+}
+
+.szenario2 {
+  padding:15rem 0 0 0;
+}
+
+.szenario2-title {
+padding:22rem 0 0 0;
+
+}
+
+.random {
+padding:15rem 0 5rem 0;
+
+}
+
+.random-text {
+padding:15rem 0 0 0rem;
+
+}
