@@ -1,0 +1,36 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3522779, 2018-02-08T04:28:18-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Grad by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/grad/regular/
+ * Copyright: Copyright (c) Mark Simonson, 2003. All rights reserved.
+ * Licensed pageviews: 1,000,000
+ * 
+ * Webfont: TwCenMTPro-Bold by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/twentieth-century-mt/pro-bold/
+ * Copyright: Copyright &#x00A9; 2015 The Monotype Corporation. All rights reserved.
+ * Licensed pageviews: 0
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3522779
+ * 
+ * © 2018 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("/count/35c0db");
+
+  
+@font-face {font-family: 'Grad';src: url('webfonts/35C0DB_0_0.eot');src: url('webfonts/35C0DB_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/35C0DB_0_0.woff2') format('woff2'),url('webfonts/35C0DB_0_0.woff') format('woff'),url('webfonts/35C0DB_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TwCenMTPro-Bold';src: url('webfonts/35C0DB_1_0.eot');src: url('webfonts/35C0DB_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/35C0DB_1_0.woff2') format('woff2'),url('webfonts/35C0DB_1_0.woff') format('woff'),url('webfonts/35C0DB_1_0.ttf') format('truetype');}
+ 
