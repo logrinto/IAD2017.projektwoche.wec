@@ -1,0 +1,350 @@
+/* ------- FONTS --------- */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+  font-size: 4.5rem;
+  line-height: 115%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 130%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:lighter;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  line-height: 120%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:lighter;
+}
+
+h4 {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  line-height: 120%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+  text-align: left;
+}
+
+h5 {
+  font-size: 2rem;
+  line-height: 130%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+
+}
+
+
+
+/* ------- FONTS --------- */
+
+
+
+
+
+/*-----Einstieg Mood Bilder Slider-------*/
+
+.logo {
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 200px;
+}
+
+
+.einstieg {
+  position: relative;
+  top: 35%;
+  transform: translateY(-35%);
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 1px grey;
+}
+
+#background1 {
+  background-image:  url("../img/gespraech.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+/*----- Einstieg Mood Bilder Slider -------*/
+
+
+
+
+.text1 {
+  margin: 0;
+  color: black;
+  padding-top: 400px;
+  padding-bottom: 400px;
+  font-weight:lighter;
+  text-align: center;
+}
+
+
+
+/*----- TESTIMONIAL 1 -------*/
+
+.name {
+  padding-top: 20px;
+  margin: 0;
+}
+
+.testimonial1 {
+  padding-left: 20px;
+  padding: 40px;
+  color: black;
+  font-weight:lighter;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: -400px;
+}
+
+#bild1 {
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 500px;
+  }
+
+/*----- TESTIMONIAL 1 -------*/
+
+
+
+.text2 {
+  color: #A9929B;
+  padding-top: 700px;
+  padding-bottom: 400px;
+  color: black;
+  font-weight:lighter;
+  text-align: center;
+}
+
+
+
+
+/*----- TESTIMONIAL 2 -------*/
+.testimonial2 {
+  padding-left: 20px;
+  padding: 40px;
+  color: black;
+  font-weight:lighter;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: -600px;
+  margin-right: 100px;
+}
+
+#bild2 {
+    background-size: cover;
+    background-position: center;
+    width: 100vw !important;
+    height: 700px !important;
+  }
+/*----- TESTIMONIAL 2 -------*/
+
+
+
+.text3 {
+  color: #A9929B;
+  padding-top: 600px;
+  padding-bottom: 400px;
+  color: black;
+  font-weight:lighter;
+  text-align: center;
+}
+
+
+
+
+/*----- TESTIMONIAL 3 -------*/
+.testimonial3 {
+  padding-left: 20px;
+  padding: 40px;
+  color: black;
+  font-weight:lighter;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: -300px;
+  max-height: 380px;
+}
+
+#bild3 {
+    background-size: cover;
+    background-position: center;
+    width: 100vw !important;
+    height: 700px !important;
+  }
+/*----- TESTIMONIAL 3 -------*/
+
+
+
+
+.text4 {
+  padding-top: 500px;
+  padding-bottom: 400px;
+  color: black;
+  font-weight:lighter;
+  text-align: center;
+}
+
+
+
+
+/*----- TESTIMONIAL 4 -------*/
+.testimonial4 {
+  padding-left: 20px;
+  padding: 40px;
+  color: black;
+  font-weight:lighter;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: -500px;
+}
+
+#bild4 {
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+  }
+/*----- TESTIMONIAL 4 -------*/
+
+
+
+.text5 {
+  padding-top: 400px;
+  padding-bottom: 100px;
+  color: black;
+  font-weight:lighter;
+  text-align: center;
+}
+
+
+
+
+/*----- VORTEILE -------*/
+
+#vorteile {
+  padding-right: 30px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-bottom: 400px;
+  color: black;
+  text-align: left;
+  background-color: #F2E0D7;
+
+}
+
+
+.map {
+  width: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.globalisierung {
+  width: 20px;
+  padding-left: 170px;
+  padding-right: 40px;
+}
+
+.no-education {
+  padding-left: 150px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+.kommunikation {
+  padding-top: -70px;
+  padding-left: 110px;
+  padding-right: 30px;
+}
+
+/*----- VORTEILE -------*/
+
+
+
+
+
+
+
+/*----- PFLASTER -------*/
+
+.titel {
+  text-align: left;
+  font-weight:lighter;
+}
+
+.pflaster {
+  padding: 60px;
+  color: black;
+  font-weight:lighter;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.8);
+  max-width: 45%;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+#pflaster {
+    background-image:  url("../img/pflaster.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .button {
+     background-color: #F2E0D7;
+     color: black;
+     width: 250px;
+     height: 75px;
+     font-size: 1.5rem;
+     border-radius: 12px;
+     text-align: center;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      padding: 17px;
+  }
+
+  .button:hover {
+      background-color: grey; /* Green */
+      color: grey;
+
+  }
+
+/*----- PFLASTER -------*/
+
+
+
+
+.back {
+  color: white;
+  font-size: 1.3rem;
+  top: 0;
+  right: 0;
+  padding: 30px 30px;
+  cursor: pointer;
+  position: absolute;
+  display: block;
+}
+
+.back:hover {
+  color: grey;
+}
