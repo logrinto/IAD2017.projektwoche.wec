@@ -1,0 +1,187 @@
+.fullscreen {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  font-size: 16vw;
+  padding-top: 35vh;
+  color: white;
+}
+
+.blue {
+  background-color: #2957a0;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+
+.img {
+  height: 100vh;
+  width: 100vh;
+}
+
+.max{
+  max-width: 100%;
+  margin-left: -9em;
+  margin-top: 5em;
+}
+
+.fullscreen .img {
+ display: inline-block;
+}
+
+.corporateblue {
+  background-color: #3579db;
+}
+
+.center {
+  text-align: center;
+  width: auto;
+}
+
+.width_50 {
+  text-align: center;
+  width: 50%;
+}
+
+h1 {
+
+  font-family: 'Faustina', serif;
+  color: #3c3c3b;
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+  margin-right: 1em;
+  margin-left: 1em;
+  font-style: italic;
+}
+
+h2 {
+
+  font-family: 'Faustina', serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+  margin-right: 1em;
+  margin-left: 1em;
+  font-style: italic;
+}
+
+h3 {
+
+  font-family: 'Faustina', serif;
+  color: #3c3c3b;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+  margin-right: 1em;
+  margin-left: 1.5em;
+  font-style: italic;
+}
+
+h4 {
+
+  font-family: 'Faustina', serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 10rem;
+  line-height: 0.9;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+  margin-right: 0em;
+  margin-left: 0em;
+  font-style: italic;
+}
+
+h5 {
+
+  font-family: 'Faustina', serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 2.2rem;
+  line-height: 1.4;
+  margin-top: 0em;
+  margin-bottom: 4em;
+  margin-right: 1.2em;
+  margin-left: 1.2em;
+  font-style: italic;
+}
+
+.col-1 {
+  width: 33.33%;
+  float: left;
+  margin-left:60Px;
+}
+
+.col-2 {
+  width: 66.66%;
+  float: left;
+  margin-left:60Px;
+}
+
+
+.col-3 {
+  width: 100%;
+  float: left;
+  margin-left:60Px;
+}
+
+.col-4 {
+  width: 50%;
+  float: left;
+  margin-left:60Px;
+}
+
+.col_center {
+  width: 50%;
+  float: left;
+  margin-left:20em;
+  margin-right:10em;
+}
+
+.columns:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.z1 {
+z-index: 1;
+}
+
+.z2 {
+z-index: 2;
+}
+
+.z3 {
+z-index: 3;
+}
+
+.Logo {
+  width: 50vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.Margin {
+  margin-top: 11em;
+}
+
+.h1_Margin {
+  margin-top: -0.1em;
+}

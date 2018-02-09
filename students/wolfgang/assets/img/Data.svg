@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1737.7 654.9" style="enable-background:new 0 0 1737.7 654.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#3C3C3B;}
+	.st1{font-family:'Faustina-SemiBoldItalic';}
+	.st2{font-size:50px;}
+	.st3{fill:none;stroke:#00A266;stroke-width:20;stroke-miterlimit:10;}
+	.st4{font-family:'Faustina-SemiBold';}
+	.st5{font-size:120px;}
+	.st6{font-size:60px;}
+	.st7{letter-spacing:-9;}
+	.st8{letter-spacing:2;}
+	.st9{letter-spacing:4;}
+	.st10{fill:#D0D0D0;stroke:#3C3C3B;stroke-width:9.7235;stroke-miterlimit:10;}
+	.st11{fill:#FFFFFF;stroke:#3C3C3B;stroke-width:9.7235;stroke-miterlimit:10;}
+	.st12{fill:none;stroke:#00A266;stroke-width:8.0374;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#3C3C3B;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<text transform="matrix(1 0 0 1 1026.7548 148.5538)" class="st0 st1 st2">Rating</text>
+<path class="st3" d="M1166.1,253.5c70.3,0,127.3,57,127.3,127.3s-57,127.3-127.3,127.3s-127.3-57-127.3-127.3
+	c0-41.3,19.7-78,50.2-101.3"/>
+<text transform="matrix(1 0 0 1 1105.4677 418.4048)" class="st0 st4 st5">89</text>
+<text transform="matrix(1 0 0 1 1410.6832 148.0604)" class="st0 st1 st2">Stundenlohn</text>
+<text transform="matrix(1 0 0 1 1444.0006 332.9144)"><tspan x="0" y="0" class="st0 st4 st6">CHF</tspan><tspan x="113.8" y="0" class="st0 st4 st5 st7"> </tspan><tspan x="126.1" y="0" class="st0 st4 st5"> </tspan><tspan x="0" y="100" class="st0 st4 st5 st8">1</tspan><tspan x="52.3" y="100" class="st0 st4 st5 st9">2</tspan><tspan x="116.8" y="100" class="st0 st4 st5 st9">5</tspan><tspan x="176.8" y="100" class="st0 st4 st5">.–</tspan></text>
+<rect x="343.3" y="340.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -175.2924 427.1179)" class="st10" width="169.2" height="169.2"/>
+<rect x="343.3" y="300.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -146.959 415.3818)" class="st10" width="169.2" height="169.2"/>
+<rect x="343.3" y="260.4" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -118.6255 403.6457)" class="st10" width="169.2" height="169.2"/>
+<rect x="343.3" y="220.4" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -90.2921 391.9096)" class="st11" width="169.2" height="169.2"/>
+<path class="st12" d="M389.4,269.1c20-20,52.4-20,72.3,0c20,20,20,52.4,0,72.3c-20,20-52.4,20-72.3,0
+	c-11.7-11.7-16.6-27.8-14.5-43.1"/>
+<line class="st13" x1="1358.1" y1="122.6" x2="1358.1" y2="521.5"/>
+<line class="st13" x1="978.2" y1="122.6" x2="978.2" y2="521.5"/>
+<text transform="matrix(1 0 0 1 260.5606 146.1507)" class="st0 st1 st2">Fähigkeits-Profile</text>
+<line class="st13" x1="212" y1="122.6" x2="212" y2="521.5"/>
+<g>
+	<rect x="22.3" y="278.4" class="st0" width="92.6" height="37.4"/>
+	<polygon class="st0" points="155.7,297.1 105.2,347.6 105.2,246.5 	"/>
+</g>
+<g>
+	<rect x="757.4" y="278.4" class="st0" width="92.6" height="37.4"/>
+	<polygon class="st0" points="890.8,297.1 840.2,347.6 840.2,246.5 	"/>
+</g>
+</svg>
