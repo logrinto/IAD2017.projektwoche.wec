@@ -116,3 +116,11 @@ img.fullscreen {
 .aktienkurs {
   display: inline-block;
 }
+
+.copy {
+  font-family: TwCenMTPro-Bold;
+	font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  text-align: center;
+}
