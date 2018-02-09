@@ -1,0 +1,43 @@
+.fullscreen {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.text {
+  font-family: "San Francisco", Helvetica, Arial;
+  text-align: center;
+  font-size: 16vw;
+  padding-top: 35vh;
+  color: white;
+}
+
+.blue {
+  background-color: #2957a0;
+}
+
+.black {
+  background-color: black;
+}
+
+.img {
+  height: 100vh;
+  width: auto;
+}
+
+.fullscreen .img {
+ display: inline-block;
+}
+
+
+.font-face {
+    font-family: 'sfns_displayregular';
+    src: url('${resourcesFolderName}/system_san_francisco_display_regular-webfont.eot');
+    src: url('${resourcesFolderName}/system_san_francisco_display_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('${resourcesFolderName}/system_san_francisco_display_regular-webfont.woff') format('woff'),
+         url('${resourcesFolderName}/system_san_francisco_display_regular-webfont.ttf') format('truetype'),
+         url('${resourcesFolderName}/system_san_francisco_display_regular-webfont.svg#sfns_displayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
