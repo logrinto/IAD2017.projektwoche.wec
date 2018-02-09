@@ -1,0 +1,62 @@
+/* menu (back) button */
+
+body {
+    overflow-x: hidden;
+    font-family: 'Quattrocento', serif;
+    background-color: black;
+}
+
+
+
+.back {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+.back img {
+    padding: 24px;
+}
+
+
+.black {
+    
+    background-color: #000;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1{ font-size: 2rem;
+    font-style: 900;
+    margin: 2em 0em 1em 0em;
+    line-height: 2.8rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h2{ font-size: 1rem;
+    font-style: 900;
+    margin: 2em 0em 1em 0em;
+    line-height: 2.8rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+a{ color: white;
+    text-decoration: none;
+    
+}
+
+a:hover {
+  font-size: 2.3rem; !important;  
+}
+
+.padding {
+    padding-top: 70px;
+}
+
+.titel{
+    width: 100vw;
+}
