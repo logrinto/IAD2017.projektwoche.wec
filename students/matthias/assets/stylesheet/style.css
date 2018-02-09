@@ -12,7 +12,6 @@
 
 body {
     font-family: Mukta Mahee, sans-serif;
-    background-color: #e8e8e8;
 }
 
 .text {
@@ -22,8 +21,41 @@ body {
     color: white;
 }
 
+.hintergrundbild {
+    background-image: url(../../img/Insekten.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.backgroundbild {
+    background-image: url(../../img/Insektenburger.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.produkttitel{
+    color: white;
+}
+
+.ubertitel{
+    font-size: 2em;
+    font-weight: 600;
+}
 .image {
     width: 90%;
+}
+
+.imagefull {
+    width: 60%;
+    margin-left: 15%;
 }
 
 .detailimage {
@@ -48,10 +80,11 @@ h2 {
 
 h3 {
     text-align: left;
+    font-size: 1.5rem;
 }
 
 li {
-    font-size: 1.7rem ;
+    font-size: 1.5rem ;
 
 }
 
@@ -62,4 +95,46 @@ li {
 
 .bold{
     font-weight: 600;
+}
+
+.back{
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 50px;
+}
+
+.zuruck{
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 50px;
+}
+
+.teaser{
+    font-size: 5em;
+    font-weight: 600;
+    color: white;
+}
+
+.detailimageunten {
+    width: 25%;
+    margin-top: 15px;
+    margin-left: vw;
+}
+
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+#skrollr-body {
+    overflow-x: hidden;
 }
