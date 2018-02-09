@@ -17,6 +17,15 @@ html {
     position: relative;
 }
 
+.backbtn {
+    position: fixed;
+    z-index: 1000;
+    top: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+}
+
 body {
     border: 15px #00f solid;
     overflow-x: hidden;
@@ -24,17 +33,32 @@ body {
 }
 
 .buy {
-    height: 600px;
+    padding: 100px 0px 100px 0px;
     background-color: #00f;
+}
+
+.buy-btn {
+    margin: 50px 40px 0px 0px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 900;
+    color: #00f;
+    -webkit-box-shadow: 5px 5px 0px 5px rgb(0, 0, 163);
+    -moz-box-shadow: 5px 5px 0px 5px rgb(0, 0, 163);
+    box-shadow: 5px 5px 0px 5px rgb(0, 0, 163);
+}
+
+.buy-btn:hover {
+    transform: scale3d(1.1,1.1,1.1);
 }
 
 img {
     width: 100%;
 }
 
-.spacer-lead {
-    height: 200px;
-}
 
 .spacer {
     height: 400px;
@@ -42,6 +66,21 @@ img {
 
 .spacer-small {
     height: 200px;
+}
+
+hr.lead-before, hr.lead-after {
+    width: 100px;
+	height: 12px;
+	background: url(../img/line-lead.svg) repeat-x 0 0;
+    border: 0;
+}
+
+hr.lead-before {
+    margin-bottom: 80px;
+}
+
+hr.lead-after {
+    margin-top: 80px;
 }
 
 .space-btw-chart {
@@ -58,11 +97,10 @@ p {
     color: #000;
 }
 
-a {
-    padding: 50px;
-    background-color: #fff;
-    border-radius: 2px;
-    display: block;
+ul {
+    font-weight: 400;
+    font-size: 1.15rem;
+    color: #000;
 }
 
 h1 {
@@ -99,21 +137,22 @@ h4 {
 h5 {
     font-family: 'Rammetto One', cursive;
     color: #fff;
-    font-size: 3rem;
+    font-size: 5rem;
     line-height: 120%;
     letter-spacing: -1px;
 }
 
 .toggle-button {
     position: absolute;
-    bottom: -100px;
+    bottom: -130px;
     padding: 10px 20px 10px 20px;
-    background-color: rgba(0, 0, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.85);
     border-radius: 50px;
+    border: 4px solid #00b48c;
 }
 
 .smv-btn-titel {
-    color: #fff;
+    color: #00b48c;
     font-size: 1.25rem;
     font-weight: 900;
     display: inline-block;
@@ -154,3 +193,8 @@ h5 {
     padding-bottom: 20px;
     width: 40px;
 }
+
+.fa-bitcoin, .fa-credit-card {
+    margin-right: 20px;
+    transform: scale3d(2,2,2)
+} 

@@ -39,9 +39,6 @@ var ctx = document.getElementById('Chart-kmh').getContext('2d');
 
     // Configuration options go here
     options: {
-        gridLines: {
-            drawOnChartArea: false,
-        },
         legend: {
             display: false,
         }
@@ -68,9 +65,6 @@ var ctx = document.getElementById('Chart-unfall').getContext('2d');
 
     // Configuration options go here
     options: {
-        gridLines: {
-            drawOnChartArea: false,
-        },
         legend: {
             display: false,
         }
@@ -91,15 +85,12 @@ var ctx = document.getElementById('Chart-prognose').getContext('2d');
             label: "Tödliche Personenunfälle",
             backgroundColor: 'rgb(0, 192, 192)',
             borderColor: 'rgb(0, 192, 192)',
-            data: [15200, 17600, 25000, 35000, 100000, 0],
+            data: [15200, 17600, 25000, 35000, 100000, 1000],
         }]
     },
 
     // Configuration options go here
     options: {
-        gridLines: {
-            drawOnChartArea: false,
-        },
         legend: {
             display: false,
         }

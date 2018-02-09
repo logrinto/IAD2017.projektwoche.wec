@@ -19,6 +19,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
         <script src="./assets/js/switchery.min.js"></script>
         <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
         <script src="./assets/js/script.js"></script>
         <!-- Referenz zur lokalen Stilvorlage (hier Änderungen eintragen) -->
         <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:300,400,800|Rammetto+One" rel="stylesheet">
@@ -30,6 +31,7 @@
     <body>
         <div class="scrollpos"></div>
         <div id="skrollr-body">
+            <a href="../../index.html"><img data-50p="margin-top: 0px;" data-60p="margin-top: -100vw;" class="backbtn" src="../../assets/img/menu_neg.svg"></a>
             <section id="intro">
             <div class="grid-x">
                 <div class="cell small-offset-1 small-10">
@@ -54,13 +56,15 @@
                     <img class="gif" src="./assets/img/car-no-crash.png">
                 </div>
             </div>
-            <div class="spacer-lead"></div>
+            <div class="spacer"></div>
+            <hr class="lead-before">
             <div class="grid-x">
                 <div class="small-offset-1 small-10">
                 <p class="big-blue">Noch vor kurzem waren Geschwindigkeiten mit dem Auto von bis zu 6000 km/h unvorstellbar. Heute reisen wir innerhalb von einer Stunde von Zürich nach New York. Alles wird schneller, aber wie kann sich der Mensch an die extremen und gefährlichen Geschwindigkeiten anpassen?</p>
                 </div>
             </div>
-            <div class="spacer-small"></div>
+            <hr class="lead-after">
+            <div class="spacer"></div>
             <div class="grid-x">
                 <div class="cell small-7">
                     <img style="transform: translate(-6vw, 80px);" src="./assets/img/car-color-cut.png">
@@ -80,31 +84,40 @@
                 </div>
             </div>
             <div class="spacer"></div>
+            <hr class="lead-before">
             <div class="grid-x">
                 <div class="small-offset-1 small-10">
-                <p class="big-blue">Die revolutionäre Entwicklung von Slow Motion Vision reduziert die Anzahl Personenunfälle im Strassenverkehr gänzlich. Mit Hilfe einer hightech Linse auf dem Auge wird die Aufnahmekapazität der Bilder pro Sekunde &#40;fps&#41; auf 1000 fps vervielfacht.</p>
+                <p class="big-blue">Die revolutionäre Entwicklung von Slow Motion Vision reduziert die Anzahl Personenunfälle im Strassenverkehr gänzlich. Mit Hilfe einer hightech Linse auf dem Auge wird die menschliche Aufnahmekapazität von Bildern auf 1000 fps &#40;Bilder pro Sekunde&#41; vervielfacht und lässt dich so in Zeitlupe sehen.</p>
                 </div>
             </div>
-            <div class="spacer-small"></div>
-            <div class="grid-x">
-                <div class="cell small-offset-1 small-4">
-                <h4 class="line-blue">Hier kommt ein Titel</h4>
-                <p>Hier kommt eine Beschreibung was die Linse geschaffen ist und was der Mensch für Vorteile hat mit der Linse. Plus einen Hinweis auf die beiden Videos.</p>
-                </div>
-                <div class="cell small-7">
-                    <img style="transform: translate(7vw, 0px);" src="./assets/img/lens.png">
-                </div>
-            </div>            
+            <hr class="lead-after">
             <div class="spacer"></div>
             <div class="grid-x">
+                <div class="cell small-offset-1 small-4">
+                    <h4 class="line-blue">Zeitlupe sehen<br>mit Slow Motion Vision</h4>
+                    <p>Durch aufsetzen der Linse auf das Auge wird Slow Motion Vision aktiviert. In gefährlichen Situationen aktiviert sich automatisch der Zeitlupenmodus.</p>
+                    <p>Mittels Lichtverstärker und Bildwiederholer werden zusätzliche Bildsignale aufgenommen, an das Auge gesendet und in einem weiteren Schritt an das Gehirn weitergeleitet. Eine künstliche Zeitlupe wird generiert und lässt für den Träger mehr Handlungspielraum in gefährlichen Situationen.</p>
+                    <ul>
+                        <li>1000 Bilder pro Sekunde sehen</li>
+                        <li>Längere Reaktionszeit</li>
+                        <li>Kaum sichtbar für Aussenstehende</li>
+                        <li>Leichtgewicht</li>
+                    </ul>
+                </div>
                 <div class="cell small-7">
-                    <img  style="transform: translate(-6vw, 80px);" src="./assets/img/eye-color.png">
+                    <img style="transform: translate(7vw, 20px);" src="./assets/img/lens.png">
+                </div>
+            </div>            
+            <div class="spacer-small"></div>
+            <div class="grid-x">
+                <div class="cell small-7">
+                    <img  style="transform: translate(-6vw, 0px);" src="./assets/img/eye-color.png">
                 </div>
                 <div class="cell small-4">
-                    <h4 class="line-blue">Slow Motion Vision rettet Leben</h4>
-                    <p>jgfjjk</p>
+                    <h4 class="line-blue">Slow Motion Vision<br>rettet Leben</h4>
+                    <p>Durch Slow Motion Vision lassen sich tödliche Personenunfälle auf ein Minimum reduzieren. Prognosen zeichnen eine zuversichtliches Ergebnis bis 2035 – tödliche Unfälle könntent bis auf 1000 Personen reduziert werden.</p>
                     <div class="rvl">
-                        <p class="chart-titel">Prognose: Tödliche Personenunfälle im Jahresvergleich</p>
+                        <p class="chart-titel">Prognose: Reduzierung von tödlichen Personenunfällen</p>
                         <canvas id="Chart-prognose"></canvas>
                     </div>
                 </div>
@@ -114,9 +127,8 @@
                 <div class="grid-x top-offset">
                     <div class="small-offset-1 small-10">
                         <h5>Jetzt<br>kaufen</h5>
-                    </div>
-                    <div class="small-offset-1 small-6">
-                        <a href="index.html">Slow Motion Linse</a>
+                        <a href="index.html" class="buy-btn"><i class="fab fa-bitcoin"></i> 1 Bitcoin</a>
+                        <a href="index.html" class="buy-btn"><i class="fas fa-credit-card"></i> 1 Million Schweizer Franken</a>
                     </div>
                 </div>
             </div>
