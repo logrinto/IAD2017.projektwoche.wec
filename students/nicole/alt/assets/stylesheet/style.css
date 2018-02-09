@@ -1,0 +1,50 @@
+/* menu (back) button */
+.back {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+.back img {
+    padding: 24px;
+}
+
+/* debug */
+/* the spacer to place images */
+div.space10 {
+    width: 10vh;
+    height: 10vh;
+    visibility: hidden;
+    background-color: #aaaaaa;
+    text-align: center;
+}
+.debug div.space10 {
+    visibility: visible;
+}
+.scrollpos {
+    position: fixed;
+    z-index: 100;
+    background: #ffffff;
+    top: 0;
+    right: 0;
+    visibility: hidden;
+}
+.debug .scrollpos {
+    visibility: visible;
+}
+
+/* every second spacer has a different color */
+.debug div.space10:nth-child(odd) {
+    background: #e0e0e0;
+}
+
+img {
+    width: 80vw;
+    text-align: center;
+}
+
+.fliege {
+    z-index: 99999;
+    width: 10vw;
+    position: absolute;
+}
