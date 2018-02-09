@@ -14,3 +14,19 @@ body {
     text-align: center;
     vertical-align: middle;
 }
+
+@media print, (min-width: 0) and (max-width: 640px) {
+    .fullscreen iframe {
+        width: 374px;
+        height: 200px;
+    }
+
+}
+
+@media print, (min-width: 640px) and (max-width: 1024px) {
+    .fullscreen iframe {
+        width: 900px;
+        height: 700px;
+    }
+
+}
